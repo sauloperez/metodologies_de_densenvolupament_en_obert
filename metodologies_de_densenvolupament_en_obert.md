@@ -375,17 +375,17 @@ Plataforma de desenvolupament software
 
 ---
 
-### Desenvolupament interatiu
+### Desenvolupament iteratiu
 
 Evolució del product en millores successives i incrementals
 
 ---
 
-### Desenvolupament interatiu
+### Desenvolupament iteratiu
 
 * Mètriques
 * Avaluació
-* Retroalimentació 
+* Retroalimentació
 
 ---
 
