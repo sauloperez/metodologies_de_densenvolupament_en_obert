@@ -405,6 +405,23 @@ Evolució del product en millores successives i incrementals
 
 ---
 
+### System administration
+
+* Servers management
+* Provisioning
+* Deploying
+* Monitoring
+
+---
+
+### Shared processes
+
+* Document all the things
+* Re-use processes across projects
+* Make them easy to replicate
+
+---
+
 ## Activitats
 
 ---
