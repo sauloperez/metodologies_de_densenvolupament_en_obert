@@ -405,20 +405,20 @@ Evolució del product en millores successives i incrementals
 
 ---
 
-### System administration
+### Administració de sistemes
 
-* Servers management
-* Provisioning
-* Deploying
-* Monitoring
+* Gestió de servidors
+* Provisionament
+* Desplegament
+* Monitorització
 
 ---
 
-### Shared processes
+### Processos compartits
 
-* Document all the things
-* Re-use processes across projects
-* Make them easy to replicate
+* Documentar-ho tot
+* Reusar processos entre projectes
+* Fàcilment replicables
 
 ---
 
