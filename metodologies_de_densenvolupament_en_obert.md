@@ -1,21 +1,19 @@
 theme: Next, 3
 
-# Fonaments de desenvolupament d'apps
+# Metodologies de desenvolupament en obert
 
-[.footer: La Comunificadora]
+[.footer: Taller Cooperativisme de Plataforma]
 
 ---
 
-## Pau Pérez
+## Pau Pérez & Enrico Stano
 
-Desenvolupador a [Coopdevs](http://coopdevs.org/)
+Desenvolupadors a [Coopdevs](http://coopdevs.org/)
 
 ![50% right](images/coopdevs.jpg)
 
-[@prez_pau](https://twitter.com/prez_pau)
-[github.com/sauloperez](https://github.com/sauloperez)
-[speakerdeck.com/sauloperez](speakerdeck.com/sauloperez)
 [github.com/coopdevs](https://github.com/coopdevs)
+[community.coopdevs.org](http://community.coopdevs.org/)
 
 ---
 
@@ -31,6 +29,12 @@ Desenvolupador a [Coopdevs](http://coopdevs.org/)
 ![](images/cambrer.jpg)
 
 [.footer: Photo by Lan Pham on Unsplash]
+
+---
+
+### Client/Servidor
+
+![](images/client-servidor.jpg)
 
 ---
 
@@ -146,7 +150,7 @@ Retorna HTML, CSS, JS
 
 ```ruby
 def create
-  @payment = @order.payments.build(object_params)
+  @payment = @order.payments.build(params)
 
   if @payment.valid?
     @payment.source = CreditCard.find_by_id(params[:card])
@@ -172,8 +176,37 @@ Opera sobre les dades
 
 ```sql
 SELECT name
-FROM users
-WHERE email = ?;
+  FROM users
+ WHERE email = ?;
+```
+
+---
+
+### Base de dades
+
+```sql
+INSERT INTO users (name, email, created_at, updated_at)
+VALUES ('Wouter', 'wouter@tebens.com', NOW(), NOW()),
+       ('Enrico', 'enrico@stano.com', NOW(), NOW());
+```
+
+---
+
+### Base de dades
+
+```sql
+UPDATE users
+   SET email = 'enrico@coopdevs.org'
+ WHERE email = 'enrico@stano.com';
+```
+
+---
+
+### Base de dades
+
+```sql
+DELETE FROM users
+ WHERE email = 'enrico@stano.com';
 ```
 
 ---
@@ -206,6 +239,32 @@ Retorna ~~HTML, CSS, JS~~ dades => web **API**
 
 ---
 
+### Client/servidor en el context de mòbils
+
+![](images/diagrama-api.jpg)
+
+---
+
+## Arquitectures de xarxa
+
+![](images/arquitectures_xarxa.jpg)
+
+[.footer: Photo by Edouard Ki on Unsplash]
+
+---
+
+### Centralitzada
+
+---
+
+### Descentralitzada
+
+---
+
+### Distribuïda
+
+---
+
 ## Com es fa tot això?
 
 ---
@@ -232,15 +291,25 @@ Retorna ~~HTML, CSS, JS~~ dades => web **API**
 
 ---
 
+## Sistemes de control de versions
+
+Reusem i desenvolupem codi de manera col·laborativa
+
 ## Git
 
-Sistema distribuit de control de versions
+Sistema distribuït de control de versions
 
 * Commits
 * Branques
 * Repositoris
 
 ![right](images/git.png)
+
+---
+
+## Social coding
+
+El treball en comunitat que es construeix sobre el software
 
 ---
 
@@ -252,6 +321,14 @@ Plataforma de desenvolupament software
 * Revisió del codi
 * Gestió del projecte
 * *Social coding*
+
+## GitLab
+
+* Allotjament de repositoris
+* Revisió del codi
+* Gestió del projecte
+* *Social coding*
+* Codi Obert
 
 ---
 
@@ -266,7 +343,7 @@ Plataforma de desenvolupament software
 
 ---
 
-### Pull Request
+### Pull Request / Merge Request
 
 ---
 
@@ -287,6 +364,44 @@ Plataforma de desenvolupament software
 [discourse/discourse](https://github.com/discourse/discourse)
 [sindresorhus/awesome](https://github.com/sindresorhus/awesome)
 [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native)
+
+---
+
+## Metodologies àgils
+
+![](images/agile.jpg)
+
+[.footer: Photo by Patrick Perkins on Unsplash]
+
+---
+
+### Desenvolupament interatiu
+
+Evolució del product en millores successives i incrementals
+
+---
+
+### Desenvolupament interatiu
+
+* Mètriques
+* Avaluació
+* Retroalimentació 
+
+---
+
+### Reunions
+
+* Planificació
+* Reunions periòdiques
+* Retrospectiva
+
+---
+
+## On viu aquest software?
+
+![](images/rem.jpg)
+
+[.footer: Photo by Quino Al on Unsplash]
 
 ---
 
