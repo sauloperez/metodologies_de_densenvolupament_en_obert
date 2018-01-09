@@ -136,6 +136,10 @@ implementar/arreglar un error.
 
 Merge: ajuntar aquestes dues branques.
 
+## Metodologies àgils
+
+Como ya se ha introducido en modulos anteriores, platform cooperativism se refiere a proyectos que tienen un fuerte enlace con las comunidades en las que se generan. A la hora de disenyar un proyecto tecnologico se recomienda implicar todos los actores afectados: usuarias, personas con perfiles tecnicos y toda la comunidad. Los procesos de co-disenyo suelen utilizar las metodologias agiles para incluir las necesidades de una comunidad en los procesos de desarrollo y traducirlos en iteraciones compuestas de tareas concretas y formulas para medir los resultados. En cada iteracion se implementa un pequenyo grupo de cambios, que aporte valor a la comunidad y que sea facil de evaluar. La fase de evaluacion de cada iteracion alimenta las siguientes iteraciones para incorporar las correcciones y adaptaciones que hayan emergido. De esta forma es mas facil integrar la comunidad en el co-disenyo ya solo hay que evaluar pequenyos cambios y compararlos con la vision global del proyecto. Abordar grandes cambios intentando aportar cuanto mas valor posible en una unica iteracion muy larga puede en cambio resultar muy dificil de evaluar por un grupo de personas numeroso.
+
 ## Operacions i administració de sistemes
 
 Un dels aspectes menys evidents en tot el procés de producció de software està
