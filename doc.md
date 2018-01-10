@@ -61,24 +61,24 @@ seva banda les mostra visualment a l'usuari en forma de taula.
 
 ## App Nativa
 
-En el context de les aplicacions mòbils 
-Concepte natiu fa referència a tecnologia del fabricant: Android, iPhone, etc.
+En el context de les aplicacions mòbils el concepte "natiu" fa referència
+a la tecnologia del fabricant: Android, iPhone, etc.
 
-Tecnologies multiplataforma fan ús de tecnologies web d'ampli ús i que no
-depenen dels fabricants
+Les tecnologies multiplataforma per contra, fan ús de tecnologies web d'ampli ús i que no
+depenen dels fabricants per obtenir aplicacions que es poden executar a diverses
+plataformes amb un sol codi font.
 
 ## API
 
-Application Programming Interface. Comparar amb interfície d'usuari. Implementa
-la mateixa lògica de negoci.
+De l'anglès "Application Programming Interface" és la implementació del conjunt
+d'operacions que permet un backend, és a dir, la lògica de negoci.
 
-Dades per a que les processi el frontend-client. Elements d'una llista.
+A diferència de la web clàssica, com ja s'ha vist, no es tracta d'una interfície
+d'usuari que permet la interacció home-màquina, sinó que només proporciona les
+dades per a que les processi el client. Serà el client el que després generarà
+la interfície d'usuari adequada per permetre aquesta interacció.
 
-Ensenyar exemple a https://jsonplaceholder.typicode.com/posts
-
-## Com es fa tot això?
-
-Preguntar a l'audiència
+Exemple https://jsonplaceholder.typicode.com/posts
 
 ## No reinventis la roda
 
@@ -90,18 +90,19 @@ Moltes vegades no és conscient.
 
 ## Reusant codi
 
-Metàfora que ens porta a les nostres cebes. Per això incideix-ho tant en les
-cebes perquè vull que reuseu.
+A grans trets hi ha dues unitats diferents de reusabilitat de codi, el que
+anomenem llibreria i framework.
 
-A quina capa de la ceba desenvolupem.
+Les llibreries implementen funcionalitat específiques i poden tenir un nivell de granularitat
+variable. Sovint o bé estant lligades a un domini concret o constueixen una
+utilitat que simplifica alguna tasca. Un bon exemple és alguna de les moltes
+llibreries que implementen algun protocol de xarxes com el cas d'HTTP.
 
-Llibreria: implementa funcionalitats espcífiques. Nivell de granularitat
-variable. Lligat a un domini o una utilitat. Exemple de llibreries de xarxa.
-Ensenyar Gemfile.
-
-Framework: conjunt de llibreries per construir quelcom. Molts components. No
-lligat a un domini.  Implementa algun disseny de sofware. Has d'inserir el teu
-codi, lligat a un domini, per veure'l funcionar. Parlar de Rails.
+El framework per contra està format per llibreries i serveix per construir
+quelcom. Està format per diversos components i no lligat a un domini concret. No
+és fins que hi desenvolupem el nostre codi a sobre que el framework realitza la
+seva funció; no funciona per si sol. Un molt bon exemple és el framework per
+desenvolupament d'aplicacions web en Ruby anomenat Ruby on Rails.
 
 ## Git
 
@@ -120,13 +121,6 @@ Repositori: Estructura de les metadades del projecte usades per git. `.git/`
 Social coding: Vell moto de github. Fer codi amb altres té una gran dimensió
 social que s'amplia en el cas de l'open source. Com més open source faig, més
 descobreixo aquest dimensió.
-
-## Anatomia
-
-Pull Request. Demanar ajuntar la branca que t'havies fet per
-implementar/arreglar un error.
-
-Merge: ajuntar aquestes dues branques.
 
 ## Metodologies àgils
 
@@ -286,7 +280,7 @@ documentació clara i entenedora.
 
 En els casos en els quals aquesta cultura de compartir coneixement no
 hagi estat adoptada per tot l'equip, ens podem trobar amb processos que
-solucionen problemes semblants però de forma diferent. Generalment és a causa de
+solucionen problemes de forma ineficient. Generalment és a causa de
 persones que desconeixien o ignoraven l'existència de processos semblants i la
 falta de comunicació. És important reutilitzar els processos entre els projectes
 i trobar la forma d'implicar totes les persones interessades quan es
