@@ -82,11 +82,18 @@ Exemple https://jsonplaceholder.typicode.com/posts
 
 ## No reinventis la roda
 
-Quelcom ja inventat, que no té errors coneguts de funcionament, i un intent de
-reinvent-ho no tindria sentit no hi afegiria valor. Malgastar el temps mentre et
-podries centrar en coses que aportin més valor.
+És fonamental entendre que no cal que tot el codi que el nostre producte faci
+servir sigui escrit per nosaltres. La majoria d'aspectes que cal implementar en
+una aplicació web ja estan resolts de manera molt eficient i les seves
+implementacions estan publicades sota llicències lliures.
 
-Moltes vegades no és conscient.
+Qualsevol intent de reinventar-ho no tindria sentit ja que no hi afegiria valor
+i segurament contindria més errors de funcionament i rendiment que sol·lucions
+ja establertes. És més útil i beneficiós per l'èxit de la nostra plataforma
+centrar els nostres esforços en aquelles coses que aportin més valor.
+
+Cal dir però, que sovint no s'és conscient del fet que s'està reinventant la
+roda i sense treball en equip pot ser difícil adonar-se'n.
 
 ## Reusant codi
 
