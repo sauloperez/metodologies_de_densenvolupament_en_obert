@@ -226,13 +226,19 @@ Retorna ~~HTML, CSS, JS~~ dades => web **API**
 
 ### Centralitzada
 
+Tot depèn d'un node central
+
 ---
 
 ### Descentralitzada
 
+Tot depèn d'alguns nodes
+
 ---
 
 ### Distribuïda
+
+Cap node és imprescindible
 
 ---
 
@@ -292,6 +298,8 @@ Plataforma de desenvolupament software
 * Revisió del codi
 * Gestió del projecte
 * *Social coding*
+
+---
 
 ## GitLab
 
