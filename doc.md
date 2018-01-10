@@ -114,20 +114,16 @@ desenvolupament d'aplicacions web en Ruby anomenat Ruby on Rails.
 ## Git
 
 Per poder reusar codi i fer codi de manera col·laborativa cal emmagatzemar-lo
-fora del nostre ordinador i fer-lo accessible.
+fora del nostre ordinador i fer-lo accessible a la rest de membres de l'equip.
 
-Gestió de canvis en arxius i directoris en el temps.
+Git permet la gestió de canvis en arxius i directoris al llarg del temps, de
+manera que podem recuperar l'estat que teni el codi en un moment concret.
 
-Commit: foto
-Branca: Línia de temps indepent de la central. Conjunt de commits. Sempre hi ha
-una principal.
-Repositori: Estructura de les metadades del projecte usades per git. `.git/`
-
-## Github
-
-Social coding: Vell moto de github. Fer codi amb altres té una gran dimensió
-social que s'amplia en el cas de l'open source. Com més open source faig, més
-descobreixo aquest dimensió.
+En la nomenclatura de Git, rep el nom de "commit" la fotografia de l'estat
+actual del codi. Aquestes fotografies, es van acumulant en el que s'anomena
+"branca". És senzillament un conjunt de commits concret i n'hi pot haver
+diverses. Per últim, el repositori és el conjunt de branques que conté tot el
+codi i informacions del nostre projecte de programari.
 
 ## Metodologies àgils
 
