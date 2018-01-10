@@ -48,15 +48,8 @@ de la seva estructura són crítics pel bon funcionament de l'aplicació.
 
 Les aplicacions web clàssiques fan servir bases de dades relacionals. Un tipus
 de bases de dades que fa servir el llenguatge estàndard SQL per mantenir la base de dades
-i obtenir-ne informació.
-
-Així doncs, SQL permet comunicar l'usuari amb la base de dades a través de
+i obtenir-ne informació. Així doncs, SQL permet comunicar l'usuari amb la base de dades a través de
 quatre tipus d'operacions: SELECT, INSERT, UPDATE, DELETE.
-
-Per altra banda, les bases de dades relacionals també disposen de quatre
-operacions bàsiques per a la modificació de l'estructura de la base de dades:
-TRUNCATE, DROP, ALTER i CREATE. Aquestes operacions reben el nom de "llenguatge
-de definició de dades". 
 
 Les bases de dades en general, no només les relacionals, es basen també per la
 seva banda en el model client/servidor. El sistema gestor de la base de dades
