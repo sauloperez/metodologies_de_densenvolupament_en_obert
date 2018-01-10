@@ -397,6 +397,34 @@ Evolució del product en millores successives i incrementals
 
 ---
 
+## Àgil i obert
+
+![](images/agil_obert.jpg)
+
+[.footer: Photo by Erik Odiin on Unsplash]
+
+---
+
+### Desenvolupament veloç i concurrent
+
+Efectivitat i felicitat
+
+---
+
+### Comunitats acollidores
+
+Encoratjar, facilitar i acompanyar
+
+---
+
+### Exemples
+
+* https://github.com/openfoodfoundation/openfoodnetwork/pull/2042
+* https://github.com/openfoodfoundation/openfoodnetwork/pull/2040
+* http://community.coopdevs.org/t/presentate-al-grupo/187/18
+
+---
+
 ## On viu aquest software?
 
 ![](images/rem.jpg)

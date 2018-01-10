@@ -148,6 +148,49 @@ intentando aportar cuanto mas valor posible en una unica iteracion muy larga
 puede en cambio resultar muy dificil de llevar a cabo y de evaluar por un grupo
 de personas numeroso.
 
+## Àgil i obert
+
+Les metodologies àgils ja aporten un enorme valor per si soles, motiu pel qual
+han tingut un gran èxit en el món tecnològic empresarial no limitat a les
+petites i mitjanes empreses.
+
+La combinació entre aquestes metodologies i el desenvolupament en obert aporten
+un potencial molt més gran en el món del cooperativisme de plataforma.
+
+Dividir el desenvolupament del producte en tasques d'abast molt reduït
+i definit, com part d'iteracions englobades en el full de ruta de la plataforma
+permet tant desenvolupar el producte entre varies persones fins i tot en les
+mateixes àres del software, com un desenvolupament veloç amb molts canvis
+incrementals i freqüents.
+
+Les tasques petites tenen a més el benefici afegit de no requerir un esforç
+cognitiu excessiu per a cap de les parts implicades. El desenvolupador entén
+perfectament quins són els requeriments de la tasca i compleix amb les
+expectatives sense haver de preguntar a la persona que ha creat la tasca. Per
+altra banda, la persona que s'encarrega de provar la implementació entén
+ràpidament quines són les parts afectades i quines funcionalitats s'han de
+provar.
+
+No menys important és l'impacte positiu que té a l'estat d'ànim dels membres de
+l'equip de desenvolupament i la comunitat en general veure com el producte
+evoluciona positivament i s'avança en els objectius marcats, i com el treball en
+equip és efectiu i àgil.
+
+Per últim, tasques d'abast reduït i ben definit són imprescindibles per tal
+d'obrir la porta a contribucions per part de membres de la comunitat com també
+de contribucions esporàdiques per part de gent fora de la comunitat.
+
+Un cop fot el triatge de tasques fàcils per nous contribuïdors cal encoratjar
+a la gent a fer el pas de participar del desenvolupament, no només en codi.
+Participar de manera activa requereix reconèixer les pròpies mancances,
+deslligar-se de les pròpies vergonyes i centrar-se en les potencialitats que es
+poden aportar al projecte.
+
+Quan això va seguit d'un acompanyament augmenten molt les probabilitats que de
+ser un contribuidor esporàdic es passi a ser un membre més de la comunitat. Cal
+tenir en compte però, l'esforç i dedicació que tot això requereix dels membres
+més actius i de l'equip de desenvolupament.
+
 ## Operacions i administració de sistemes
 
 Un dels aspectes menys evidents en tot el procés de producció de software està
