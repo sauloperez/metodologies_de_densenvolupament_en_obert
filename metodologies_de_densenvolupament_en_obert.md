@@ -450,4 +450,8 @@ Redacta un *brief* pel teu projecte o per un que ja existeixi. Pots fer servir l
 
 ![](images/carretera.jpg)
 
+Materials de la sessió a
+
+[https://github.com/sauloperez/metodologies\_de\_densenvolupament\_en\_obert](https://github.com/sauloperez/metodologies_de_densenvolupament_en_obert)
+
 [.footer: Photo by Matthias Heil on Unsplash]
