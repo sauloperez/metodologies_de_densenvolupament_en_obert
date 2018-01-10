@@ -163,7 +163,7 @@ un potencial molt més gran en el món del cooperativisme de plataforma.
 Dividir el desenvolupament del producte en tasques d'abast molt reduït
 i definit, com part d'iteracions englobades en el full de ruta de la plataforma
 permet tant desenvolupar el producte entre varies persones fins i tot en les
-mateixes àres del software, com un desenvolupament veloç amb molts canvis
+mateixes àres del programari, com un desenvolupament veloç amb molts canvis
 incrementals i freqüents.
 
 Les tasques petites tenen a més el benefici afegit de no requerir un esforç
@@ -196,21 +196,21 @@ més actius i de l'equip de desenvolupament.
 
 ## Operacions i administració de sistemes
 
-Un dels aspectes menys evidents en tot el procés de producció de software està
+Un dels aspectes menys evidents en tot el procés de producció de programari està
 relacionat amb "posar a producció" el mateix sofwate. És a dir, posar-lo
 a disposició dels usuaris. En funció de l'arquitectura de xarxa i de l'aplicació
 que s'hagi escollit hi ha diverses maneres de portar a terme aquest procés.
 
 En el de client/servidor, l'equip responsable d'entregar el producte als seus
-usuaris necessita traslldar el software a servidors accessibles des de internet.
+usuaris necessita traslldar el programari a servidors accessibles des de internet.
 Els processos necessaris per fer-ho estan estrament relacionats amb el conjunt
-de tecnologies escollides per donar suport al software produït.
+de tecnologies escollides per donar suport al programari produït.
 
 Tot i aquesta espcificitat, hi ha una sèria de patrons recurrents en aquests
 processos. És important però, adoptar unes pràctiques que permetin a tot l'equip
 conèixer aquests processos de manera que no depenguin de persones concretes.
 
-Els processos bàsics necessaris per posar un software a producció es poden
+Els processos bàsics necessaris per posar un programari a producció es poden
 resumir en:
 
   * Gestió de servidors
@@ -220,9 +220,9 @@ resumir en:
 
 ### Gestió de servidors
 
-L'elecció dels servidors en els que s'executarà el software requereix
+L'elecció dels servidors en els que s'executarà el programari requereix
 coneixement del mercat i dels factors relacionats amb el posicionament geogràfic
-dels usuaris del software. Entre tants proveïdors de serveis d'allotjament es
+dels usuaris del programari. Entre tants proveïdors de serveis d'allotjament es
 necessari entendre també el nivell de confiança que podem esperar segons el
 model de governança, la mida de l'empresa, etc.
 
