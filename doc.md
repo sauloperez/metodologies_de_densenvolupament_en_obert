@@ -159,40 +159,87 @@ resumir en:
 
 ### Gestió de servidors
 
-La eleccion de los servidores en los cuales el software se ejecutara' requiere
-el conocimiento del mercado y tambien de factores relacionados con el
-posicionamiento geografico de las usuarias que necesitaran acceder al software.
-Entre tantos proveedores de servicios de alojamiento se precisara' entender
-tambien que nivel de confianza podemos esperarnos en base al modelo de
-gobernanza, del tamanyo de la empresa, etc.
+L'elecció dels servidors en els que s'executarà el software requereix
+coneixement del mercat i dels factors relacionats amb el posicionament geogràfic
+dels usuaris del software. Entre tants proveïdors de serveis d'allotjament es
+necessari entendre també el nivell de confiança que podem esperar segons el
+model de governança, la mida de l'empresa, etc.
 
-Provisioning
+#### Provisioning
 
-Una vez conseguido acceso a los servidores, necesitamos preparar las maquinas para que puedan recibir y ejecutar nuestro software. El proceso de provisioning se encarga basicamente de instalar en los servidores todo aquel software que no hemos desarrollado nosotros directamente pero del que necesitamos para ejecutar el nuestro. Un ejemplo puede ser el software que gestiona las bases de datos, etc. Este software se suele llamar "dependencias".
+Una vez conseguido acceso a los servidores, necesitamos preparar las maquinas
+para que puedan recibir y ejecutar nuestro software. El proceso de provisioning
+se encarga basicamente de instalar en los servidores todo aquel software que no
+hemos desarrollado nosotros directamente pero del que necesitamos para ejecutar
+el nuestro. Un ejemplo puede ser el software que gestiona las bases de datos,
+etc. Este software se suele llamar "dependencias".
 
-Desplegament
+#### Desplegament
 
-A partir del momento en que los servidores esten equipados con todas las dependencias necesarias podemos empezar el proceso de traslado del software producido por nuestro equipo. Este proceso es responsable de fisicamente poner en produccion el software y tambien esta muy vinculado a las tecnologias elegidas. Un aspecto importante de este proceso es que tiene que facilitar el acceso a la version del software que ha sido desplegada y a procesos de emergencia para volver a activar versiones anteriores.
+A partir del momento en que los servidores esten equipados con todas las
+dependencias necesarias podemos empezar el proceso de traslado del software
+producido por nuestro equipo. Este proceso es responsable de fisicamente poner
+en produccion el software y tambien esta muy vinculado a las tecnologias
+elegidas. Un aspecto importante de este proceso es que tiene que facilitar el
+acceso a la version del software que ha sido desplegada y a procesos de
+emergencia para volver a activar versiones anteriores.
 
-Monitorització
+#### Monitorització
 
-Deberia ser ya bastante evidente que todo el conjunto de software y procesos necesarios para mantener accessible nuestro software puede resultar dificil de mantener y sobretodo dificil de gestionar en casos de emergencias. Para balancear esta amenaza se suelen poner en marcha unos mecanismos y procesos de monitorizacion. Basicamente se trata de instrumentar y monitorar cuantos mas aspectos posible, a partir del correcto funcionamiento del servidor (memoria, CPU, etc) hasta cada pieza de nuestro puzzle de software que resulta ser vital para nuestro proyecto. Colectando toda esta cantidad de datos se puede poner en marcha un sistema de alertas que avisaria al equipo cada vez algunos valores medidos se alejan de los valores esperados. Estos datos e informaciones tambien son importantes a la hora de analizar un problema ocurrido y para actuar para que no se vuelva a repetir.
+Deberia ser ya bastante evidente que todo el conjunto de software y procesos
+necesarios para mantener accessible nuestro software puede resultar dificil de
+mantener y sobretodo dificil de gestionar en casos de emergencias. Para
+balancear esta amenaza se suelen poner en marcha unos mecanismos y procesos de
+monitorizacion. Basicamente se trata de instrumentar y monitorar cuantos mas
+aspectos posible, a partir del correcto funcionamiento del servidor (memoria,
+CPU, etc) hasta cada pieza de nuestro puzzle de software que resulta ser vital
+para nuestro proyecto. Colectando toda esta cantidad de datos se puede poner en
+marcha un sistema de alertas que avisaria al equipo cada vez algunos valores
+medidos se alejan de los valores esperados. Estos datos e informaciones tambien
+son importantes a la hora de analizar un problema ocurrido y para actuar para
+que no se vuelva a repetir.
 
 
-Processos compartits
+### Processos compartits
 
-Acabamos de entender lo complejo y a la vez crucial que son los procesos de "puesta en produccion" de un software, un fallo en ese conjunto puede poner en riesgo todo el trabajo invertido en el desarrollo de nuestro proyecto. Para esta razon se recomienda adoptar buenas practicas y compartir el conocimiento entre proyectos que usan tecnologias parecidas.
+Acabamos de entender lo complejo y a la vez crucial que son los procesos de
+"puesta en produccion" de un software, un fallo en ese conjunto puede poner en
+riesgo todo el trabajo invertido en el desarrollo de nuestro proyecto. Para esta
+razon se recomienda adoptar buenas practicas y compartir el conocimiento entre
+proyectos que usan tecnologias parecidas.
 
-Documentar-ho tot
+### Documentar-ho tot
 
-Centralizar el conocimiento y el know-how puede poner en peligro un proyecto tecnologico de este tipo. Hay que contrastar cualquier tipo de resistencia al compartir la informacion aunque pueda resultar en una perdida de poder para algunas personas. Es importante documentar cada decision y cada cambio en cada uno de los procesos mencionados. Si por alguna razon hay partes de esos procesos que se implementaron sin generar documentacion hay que aprovechar la ocasion para pedir a una persona que nunca ha tenido acceso a esos proces de documentarlos. La mejor persona para documentar un proceso es la que nunca los haya puesto en marcha, es una buena ocasion para transferir conocimiento y a la vez generar documentacion clara y entendible.
+Centralizar el conocimiento y el know-how puede poner en peligro un proyecto
+tecnologico de este tipo. Hay que contrastar cualquier tipo de resistencia al
+compartir la informacion aunque pueda resultar en una perdida de poder para
+algunas personas. Es importante documentar cada decision y cada cambio en cada
+uno de los procesos mencionados. Si por alguna razon hay partes de esos procesos
+que se implementaron sin generar documentacion hay que aprovechar la ocasion
+para pedir a una persona que nunca ha tenido acceso a esos proces de
+documentarlos. La mejor persona para documentar un proceso es la que nunca los
+haya puesto en marcha, es una buena ocasion para transferir conocimiento y a la
+vez generar documentacion clara y entendible.
 
-Reusar processos entre projectes
+### Reusar processos entre projectes
 
-En los casos en los cuales esta cultura de compartir conocimiento todavia no haya sido "embraced" por todo el equipo, nos podemos encontrar con procesos que solucionan problemas parecidos pero de forma distinta. Generalmente es debido a personas que desconocian o ignoraban la existencia de procesos parecidos y la falta de comunicacion. Es importante reutilizar los procesos entre los proyectos y encontrar la forma de implicar todas las personas interesadas cuando se trabaja en la implementacion de nuevos procesos.
+En los casos en los cuales esta cultura de compartir conocimiento todavia no
+haya sido "embraced" por todo el equipo, nos podemos encontrar con procesos que
+solucionan problemas parecidos pero de forma distinta. Generalmente es debido
+a personas que desconocian o ignoraban la existencia de procesos parecidos y la
+falta de comunicacion. Es importante reutilizar los procesos entre los proyectos
+y encontrar la forma de implicar todas las personas interesadas cuando se
+trabaja en la implementacion de nuevos procesos.
 
-Fàcilment replicables
+### Fàcil replicació
 
-Desde una perspectiva del pro-comun digital todo este trabajo y esfuerzo dedicado a documentar y compartir los procesos de produccion es necesario que se haga visible tambien fuera de la propria organizacion publicando todo lo que se pueda con licencias abiertas (Creative Commons, etc). De esta forma se podra' potenciar el efecto de replicacion de los proyectos ya que, como hemos visto, no solo el software en si es importante y estrategico sino que tambien todo el conjunto de procesos para la puesta en produccion y el mantenimiento del proyecto lo es.
+Desde una perspectiva del pro-comun digital todo este trabajo y esfuerzo
+dedicado a documentar y compartir los procesos de produccion es necesario que se
+haga visible tambien fuera de la propria organizacion publicando todo lo que se
+pueda con licencias abiertas (Creative Commons, etc). De esta forma se podra'
+potenciar el efecto de replicacion de los proyectos ya que, como hemos visto, no
+solo el software en si es importante y estrategico sino que tambien todo el
+conjunto de procesos para la puesta en produccion y el mantenimiento del
+proyecto lo es.
 
 Ejemplo Loomio https://github.com/loomio/loomio-coop-handbook
