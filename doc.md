@@ -130,24 +130,25 @@ Merge: ajuntar aquestes dues branques.
 
 ## Metodologies àgils
 
-Com ja s'ha introduït en modulos anteriors, platform cooperativism es refereix
-a projectes que tenen un fort enllaç amb les comunitats en les quals es generen.
-A l'hora de disenyar un projecte tecnologico es recomana implicar tots els actors
-afectats: usuàries, persones amb perfils tecnicos i tota la comunitat.
+Com ja s'ha introduït als apartats anteriors, el cooperativisme de plataforma es
+refereix a projectes que tenen un fort enllaç amb les comunitats en les quals es
+generen. A l'hora de disenyar un projecte tecnològic es recomana implicar a tots
+els actors afectats: usuàries, persones amb perfils tècnics i tota la
+comunitat.
 
-Els processos de co-disseny solen utilitzar les metodologias agiles per incloure
+Els processos de co-disseny solen utilitzar les metodologies àgils per incloure
 les necessitats d'una comunitat en els processos de desenvolupament i traduir-los
-en iteracions compostes de tasques concretes i formules per mesurar els resultats.
+en iteracions composades per tasques concretes i fórmules per mesurar els resultats.
 
-En cada iteracion s'implementa un petit grup de canvis, que aporti valor a la
-comunitat i que sigui facil d'avaluar. La fase de evaluacion de cada iteracion
+A cada iteració s'implementa un petit grup de canvis, que aporti valor a la
+comunitat i que sigui facil d'avaluar. La fase de avaluació de cada iteració
 alimenta les següents iteracions per incorporar les correccions i adaptacions
-que hagin emergit. D'aquesta forma és mes facil integrar la comunitat en el
-co-disseny ja solament cal avaluar petit canvis i comparar-los amb la vision
+que hagin sorgit. D'aquesta manera és més facil integrar la comunitat en el
+co-disseny ja que solsament cal avaluar petit canvis i comparar-los amb la visió
 global del projecte.
 
-Abordar grans canvis intentant aportar quant mes valor possible en una unica
-iteracion molt llarga pugues en canvi resultar molt dificil d'avaluar per un
+Abordar grans canvis intentant aportar el màxim valor possible en una única
+iteració molt llarga pot en canvi, resultar molt difícil d'avaluar per un
 grup de persones nombrós.
 
 ## Àgil i obert
