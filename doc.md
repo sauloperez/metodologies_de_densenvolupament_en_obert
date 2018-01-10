@@ -180,7 +180,7 @@ dels usuaris del software. Entre tants proveïdors de serveis d'allotjament es
 necessari entendre també el nivell de confiança que podem esperar segons el
 model de governança, la mida de l'empresa, etc.
 
-#### Provisioning
+### Provisioning
 
 Una vez conseguido acceso a los servidores, necesitamos preparar las maquinas
 para que puedan recibir y ejecutar nuestro software. El proceso de provisioning
@@ -189,7 +189,7 @@ hemos desarrollado nosotros directamente pero del que necesitamos para ejecutar
 el nuestro. Un ejemplo puede ser el software que gestiona las bases de datos,
 etc. Este software se suele llamar "dependencias".
 
-#### Desplegament
+### Desplegament
 
 A partir del momento en que los servidores esten equipados con todas las
 dependencias necesarias podemos empezar el proceso de traslado del software
@@ -199,7 +199,7 @@ elegidas. Un aspecto importante de este proceso es que tiene que facilitar el
 acceso a la version del software que ha sido desplegada y a procesos de
 emergencia para volver a activar versiones anteriores.
 
-#### Monitorització
+### Monitorització
 
 Deberia ser ya bastante evidente que todo el conjunto de software y procesos
 necesarios para mantener accessible nuestro software puede resultar dificil de
@@ -214,8 +214,7 @@ medidos se alejan de los valores esperados. Estos datos e informaciones tambien
 son importantes a la hora de analizar un problema ocurrido y para actuar para
 que no se vuelva a repetir.
 
-
-### Processos compartits
+## Processos compartits
 
 Acabamos de entender lo complejo y a la vez crucial que son los procesos de
 "puesta en produccion" de un software, un fallo en ese conjunto puede poner en
