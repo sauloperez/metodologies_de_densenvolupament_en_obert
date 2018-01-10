@@ -1,4 +1,4 @@
-theme: Next, 3
+theme: Work, 1
 
 # Metodologies de desenvolupament en obert
 
