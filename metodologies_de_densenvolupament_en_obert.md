@@ -34,12 +34,6 @@ Desenvolupadors a [Coopdevs](http://coopdevs.org/)
 
 ### Client/Servidor
 
-![](images/client-servidor.jpg)
-
----
-
-### Client/Servidor
-
 1. Servidor espera passiu
 2. Client envia una petició
 3. Client espera la resposta
@@ -184,30 +178,7 @@ SELECT name
 
 ### Base de dades
 
-```sql
-INSERT INTO users (name, email, created_at, updated_at)
-VALUES ('Wouter', 'wouter@tebens.com', NOW(), NOW()),
-       ('Enrico', 'enrico@stano.com', NOW(), NOW());
-```
-
----
-
-### Base de dades
-
-```sql
-UPDATE users
-   SET email = 'enrico@coopdevs.org'
- WHERE email = 'enrico@stano.com';
-```
-
----
-
-### Base de dades
-
-```sql
-DELETE FROM users
- WHERE email = 'enrico@stano.com';
-```
+També usa client + servidor
 
 ---
 
