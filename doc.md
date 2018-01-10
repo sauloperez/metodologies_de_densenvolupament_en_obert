@@ -51,14 +51,13 @@ de bases de dades que fa servir el llenguatge estàndard SQL per mantenir la bas
 i obtenir-ne informació. Així doncs, SQL permet comunicar l'usuari amb la base de dades a través de
 quatre tipus d'operacions: SELECT, INSERT, UPDATE, DELETE.
 
-Les bases de dades en general, no només les relacionals, es basen també per la
-seva banda en el model client/servidor. El sistema gestor de la base de dades
-s'executa de manera indefinida al servidor esperant peticions en un port especificat.
-L'usuari utilitza un client compatible amb aquest sistema gestor de base de
-dades per enviar-hi peticions usant les operacions anteriorment esmentades. És
-llavors quan el sistema gestor respon a la petició del client amb el resultat de
-l'operació, i aquest per la seva banda les mostra visualment a l'usuari en
-forma de taula.
+Les bases de dades en general es basen també en el model client/servidor. El
+sistema gestor de la base de dades s'executa de manera indefinida al servidor
+esperant peticions en un port especificat. L'usuari utilitza un client
+compatible amb aquest sistema gestor de base de dades per enviar-hi peticions
+usant les operacions anteriorment esmentades. És llavors quan el sistema gestor
+respon a la petició del client amb el resultat de l'operació, i aquest per la
+seva banda les mostra visualment a l'usuari en forma de taula.
 
 ## App Nativa
 
