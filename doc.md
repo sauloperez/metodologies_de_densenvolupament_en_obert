@@ -228,78 +228,80 @@ model de governança, la mida de l'empresa, etc.
 
 ### Provisioning
 
-Una vez conseguido acceso a los servidores, necesitamos preparar las maquinas
-para que puedan recibir y ejecutar nuestro software. El proceso de provisioning
-se encarga basicamente de instalar en los servidores todo aquel software que no
-hemos desarrollado nosotros directamente pero del que necesitamos para ejecutar
-el nuestro. Un ejemplo puede ser el software que gestiona las bases de datos,
-etc. Este software se suele llamar "dependencias".
+Una vegada aconseguit accés als servidors, necessitem preparar les màquines
+perquè puguin rebre i executar el nostre programari. El procés de provisionament
+s'encarrega d'instal·lar en els servidors tot aquell programari que no
+hem desenvolupat nosaltres directament però que necessitem per executar
+el nostre. Un exemple pot ser el programari que gestiona les bases de dades,
+etc. Aquest programari se sol anomenar dependència.
 
 ### Desplegament
 
-A partir del momento en que los servidores esten equipados con todas las
-dependencias necesarias podemos empezar el proceso de traslado del software
-producido por nuestro equipo. Este proceso es responsable de fisicamente poner
-en produccion el software y tambien esta muy vinculado a las tecnologias
-elegidas. Un aspecto importante de este proceso es que tiene que facilitar el
-acceso a la version del software que ha sido desplegada y a procesos de
-emergencia para volver a activar versiones anteriores.
+A partir del moment en què els servidors estan equipats amb totes les
+dependències necessàries podem començar el procés de trasllat del programari
+produït pel nostre equip. Aquest procés és responsable de posar físicament
+a producció el programari. Un aspecte important d'aquest procés és que ha de
+facilitar l'accés a la versió del programari que ha estat desplegada
+i a processos d'emergència per tornar a activar versions anteriors.
 
 ### Monitorització
 
-Deberia ser ya bastante evidente que todo el conjunto de software y procesos
-necesarios para mantener accessible nuestro software puede resultar dificil de
-mantener y sobretodo dificil de gestionar en casos de emergencias. Para
-balancear esta amenaza se suelen poner en marcha unos mecanismos y procesos de
-monitorizacion. Basicamente se trata de instrumentar y monitorar cuantos mas
-aspectos posible, a partir del correcto funcionamiento del servidor (memoria,
-CPU, etc) hasta cada pieza de nuestro puzzle de software que resulta ser vital
-para nuestro proyecto. Colectando toda esta cantidad de datos se puede poner en
-marcha un sistema de alertas que avisaria al equipo cada vez algunos valores
-medidos se alejan de los valores esperados. Estos datos e informaciones tambien
-son importantes a la hora de analizar un problema ocurrido y para actuar para
-que no se vuelva a repetir.
+Hauria de ser ja bastant evident que tot el conjunt de programari i processos
+necessaris per mantenir accessible el nostre programari pot resultar difícil de
+mantenir i sobretot difícil de gestionar en casos d'emergències.
+
+Per reduir aquesta amenaça se solen engegar mecanismes i processos
+de monitorització. Es tracta d'instrumentar i monitoritzar quants mes
+aspectes possible, partint del correcte funcionament del servidor (memòria,
+CPU, etc) fins a cada peça del nostre conjunt de programari que resulta vital
+per al nostre projecte.
+
+Obtenint totes aquestes dades es pot engegar un sistema d'alertes que avisi
+a l'equip cada cop que alguns valors mesurats s'allunyen dels valors establerts.
+Aquestes dades i informacions també són importants a l'hora d'analitzar un
+problema ocorregut i per actuar perquè no es torni a repetir.
 
 ## Processos compartits
 
-Acabamos de entender lo complejo y a la vez crucial que son los procesos de
-"puesta en produccion" de un software, un fallo en ese conjunto puede poner en
-riesgo todo el trabajo invertido en el desarrollo de nuestro proyecto. Para esta
-razon se recomienda adoptar buenas practicas y compartir el conocimiento entre
-proyectos que usan tecnologias parecidas.
+Acabem d'entendre la complexitat i alhora pes fonamental que tenen els processos
+de posada a producció d'un programari, una fallada en aquest conjunt pot posar
+en risc tot el treball invertit en el desenvolupament del nostre projecte. Per aquesta
+raó es recomanable adoptar bones pràctiques i compartir el coneixement entre
+projectes que usen tecnologies semblants.
 
 ### Documentar-ho tot
 
-Centralizar el conocimiento y el know-how puede poner en peligro un proyecto
-tecnologico de este tipo. Hay que contrastar cualquier tipo de resistencia al
-compartir la informacion aunque pueda resultar en una perdida de poder para
-algunas personas. Es importante documentar cada decision y cada cambio en cada
-uno de los procesos mencionados. Si por alguna razon hay partes de esos procesos
-que se implementaron sin generar documentacion hay que aprovechar la ocasion
-para pedir a una persona que nunca ha tenido acceso a esos proces de
-documentarlos. La mejor persona para documentar un proceso es la que nunca los
-haya puesto en marcha, es una buena ocasion para transferir conocimiento y a la
-vez generar documentacion clara y entendible.
+Centralitzar el coneixement pot posar en perill un projecte tecnològic d'aquest
+tipus. Cal contrarestar qualsevol tipus de resistència a compartir la
+informació encara que pugui resultar en una perduda de poder per a algunes
+persones. És important documentar cada decisió i cada canvi en cadascun dels
+processos esmentats. Si per alguna raó hi ha parts d'aquests processos que es
+van implementar sense generar documentació cal aprofitar l'ocasió per
+demanar a una persona que mai hagi tingut accés a aquests processos de
+documentar-los. La millor persona per documentar un procés és la que mai els
+hagi posat en pràctica, és una bona ocasió per transmetre coneixement i alhora generar
+documentació clara i entenedora.
 
 ### Reusar processos entre projectes
 
-En los casos en los cuales esta cultura de compartir conocimiento todavia no
-haya sido "embraced" por todo el equipo, nos podemos encontrar con procesos que
-solucionan problemas parecidos pero de forma distinta. Generalmente es debido
-a personas que desconocian o ignoraban la existencia de procesos parecidos y la
-falta de comunicacion. Es importante reutilizar los procesos entre los proyectos
-y encontrar la forma de implicar todas las personas interesadas cuando se
-trabaja en la implementacion de nuevos procesos.
+En els casos en els quals aquesta cultura de compartir coneixement no
+hagi estat adoptada per tot l'equip, ens podem trobar amb processos que
+solucionen problemes semblants però de forma diferent. Generalment és a causa de
+persones que desconeixien o ignoraven l'existència de processos semblants i la
+falta de comunicació. És important reutilitzar els processos entre els projectes
+i trobar la forma d'implicar totes les persones interessades quan es
+treballa en la implementació de nous processos.
 
 ### Fàcil replicació
 
-Desde una perspectiva del pro-comun digital todo este trabajo y esfuerzo
-dedicado a documentar y compartir los procesos de produccion es necesario que se
-haga visible tambien fuera de la propria organizacion publicando todo lo que se
-pueda con licencias abiertas (Creative Commons, etc). De esta forma se podra'
-potenciar el efecto de replicacion de los proyectos ya que, como hemos visto, no
-solo el software en si es importante y estrategico sino que tambien todo el
-conjunto de procesos para la puesta en produccion y el mantenimiento del
-proyecto lo es.
+Des d'una perspectiva del pro-comú digital tot aquest treball i esforç
+dedicat a documentar i compartir els processos de producció és necessari que es
+faci visible també fora de la pròpia organització publicant tot el que es
+pugui amb llicències obertes (Creative Commons, etc).
 
-Ejemplo Loomio https://github.com/loomio/loomio-coop-handbook
+D'aquesta forma es podrà potenciar la replicació dels projectes ja que, com hem vist, no
+solament el programari en si és important i estratègic sinó que també ho són tot
+el conjunt de processos per a la posada a producció i el manteniment del
+projecte.
+
+Exemple: https://github.com/loomio/loomio-coop-handbook
