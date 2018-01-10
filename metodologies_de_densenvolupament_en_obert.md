@@ -463,6 +463,7 @@ Busca un repositori de software que t'interessi i analitza'l. Algunes coses que 
 * Dependències i requisits
 * Com s'instal·la o arrenca
 * Com s'hi pot contribuir
+* Té una comunitat darrere?
 
 ---
 
