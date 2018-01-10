@@ -131,22 +131,25 @@ Merge: ajuntar aquestes dues branques.
 
 ## Metodologies àgils
 
-Como ya se ha introducido en modulos anteriores, platform cooperativism se
-refiere a proyectos que tienen un fuerte enlace con las comunidades en las que
-se generan. A la hora de disenyar un proyecto tecnologico se recomienda implicar
-todos los actores afectados: usuarias, personas con perfiles tecnicos y toda la
-comunidad. Los procesos de co-disenyo suelen utilizar las metodologias agiles
-para incluir las necesidades de una comunidad en los procesos de desarrollo
-y traducirlos en iteraciones compuestas de tareas concretas y formulas para
-medir los resultados. En cada iteracion se implementa un pequenyo grupo de
-cambios, que aporte valor a la comunidad y que sea facil de evaluar. La fase de
-evaluacion de cada iteracion alimenta las siguientes iteraciones para incorporar
-las correcciones y adaptaciones que hayan emergido. De esta forma es mas facil
-integrar la comunidad en el co-disenyo ya solo hay que evaluar pequenyos cambios
-y compararlos con la vision global del proyecto. Abordar grandes cambios
-intentando aportar cuanto mas valor posible en una unica iteracion muy larga
-puede en cambio resultar muy dificil de llevar a cabo y de evaluar por un grupo
-de personas numeroso.
+Com ja s'ha introduït en modulos anteriors, platform cooperativism es refereix
+a projectes que tenen un fort enllaç amb les comunitats en les quals es generen.
+A l'hora de disenyar un projecte tecnologico es recomana implicar tots els actors
+afectats: usuàries, persones amb perfils tecnicos i tota la comunitat.
+
+Els processos de co-disseny solen utilitzar les metodologias agiles per incloure
+les necessitats d'una comunitat en els processos de desenvolupament i traduir-los
+en iteracions compostes de tasques concretes i formules per mesurar els resultats.
+
+En cada iteracion s'implementa un petit grup de canvis, que aporti valor a la
+comunitat i que sigui facil d'avaluar. La fase de evaluacion de cada iteracion
+alimenta les següents iteracions per incorporar les correccions i adaptacions
+que hagin emergit. D'aquesta forma és mes facil integrar la comunitat en el
+co-disseny ja solament cal avaluar petit canvis i comparar-los amb la vision
+global del projecte.
+
+Abordar grans canvis intentant aportar quant mes valor possible en una unica
+iteracion molt llarga pugues en canvi resultar molt dificil d'avaluar per un
+grup de persones nombrós.
 
 ## Àgil i obert
 
