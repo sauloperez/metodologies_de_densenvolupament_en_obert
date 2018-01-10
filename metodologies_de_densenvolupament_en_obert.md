@@ -210,12 +210,6 @@ Retorna ~~HTML, CSS, JS~~ dades => web **API**
 
 ---
 
-### Client/servidor en el context de mòbils
-
-![](images/diagrama-api.jpg)
-
----
-
 ## Arquitectures de xarxa
 
 ![](images/arquitectures_xarxa.jpg)
