@@ -145,8 +145,8 @@ las correcciones y adaptaciones que hayan emergido. De esta forma es mas facil
 integrar la comunidad en el co-disenyo ya solo hay que evaluar pequenyos cambios
 y compararlos con la vision global del proyecto. Abordar grandes cambios
 intentando aportar cuanto mas valor posible en una unica iteracion muy larga
-puede en cambio resultar muy dificil de evaluar por un grupo de personas
-numeroso.
+puede en cambio resultar muy dificil de llevar a cabo y de evaluar por un grupo
+de personas numeroso.
 
 ## Operacions i administració de sistemes
 
