@@ -266,6 +266,8 @@ Cap node és imprescindible
 
 Reusem i desenvolupem codi de manera col·laborativa
 
+---
+
 ## Git
 
 Sistema distribuït de control de versions
