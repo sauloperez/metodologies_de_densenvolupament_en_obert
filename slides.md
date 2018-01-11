@@ -303,7 +303,7 @@ Plataforma de desenvolupament software
 * Revisió del codi
 * Gestió del projecte
 * *Social coding*
-* Codi Obert
+* *Codi Obert*
 
 ---
 
