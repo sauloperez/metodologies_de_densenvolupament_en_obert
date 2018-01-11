@@ -2,7 +2,7 @@
 
 Recursos de la sessió "Metodologies de desenvolupament en obert" del Taller de cooperativisme de plataforma de Barcelona Activa del 10 de gener de 2018.
 
-  * [Diapositives](metodologies_de_densenvolupament_en_obert.md)
+  * [Diapositives](slides.md)
   * [Plantilla de *brief* per un projecte software](plantilla_brief.md)
 
 ## Com has fet les diapositives?
