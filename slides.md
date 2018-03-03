@@ -352,7 +352,7 @@ Plataforma de desenvolupament software
 
 ### Desenvolupament iteratiu
 
-Evolució del product en millores successives i incrementals
+Evolució del producte en millores successives i incrementals
 
 ---
 
